@@ -20,8 +20,6 @@ def articles():
                 ]
     return render_template('website_articles.html', articles = articles)
 
-#TODO nieco z ineho suboru, styly
-
 if __name__ == "__main__":
     app.run(debug=True)
 
